@@ -1,12 +1,27 @@
+:root {
+    --primary-color: #F57E0E;
+    --secondary-color: #333;
+    --link-color: #0000ff;
+    --white:#fff;
+    --special-font: 'Black Ops One';
+    --shadow-white: #fff 0 0 .5rem;
+    --shadow-black: #000 0 0 .5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 table{
-background-color: #ff8000;
+background-color: var(--primary-color);
 padding: 5px;
 text-align:center;
 margin: 0 auto;
 }
 
 caption{
-    background-color: #ff8000;
+    background-color: var(--primary-color);
+    
     
 }
 
@@ -20,11 +35,11 @@ th{
 
 td {
     border: 2px solid black;
-    color: white;
+    color: var(--white);
   }
 button{
-    background-color: #ff8000;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     border-radius: 15%;
 }
 .footer {
@@ -32,8 +47,11 @@ button{
     justify-content: center;
     align-items: center;
     gap: 12px;
-    background-color: gray;
+    background-color: var(--secondary-color);
+    color: var(--white);
 }
+
+
 
 
 

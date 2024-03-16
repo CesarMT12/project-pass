@@ -10,19 +10,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    
 }
 
 table{
-background-color: var(--primary-color);
+
 padding: 5px;
 text-align:center;
 margin: 0 auto;
 }
 
 caption{
-    background-color: var(--primary-color);
-    
-    
+    color: black;
+    text-shadow: var(--shadow-white);
 }
 
 th{

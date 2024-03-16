@@ -1,4 +1,5 @@
-:root{
+:root {
+
     --primary-color: #F57E0E;
     --secondary-color: #333;
     --link-color: #0000ff;
@@ -29,3 +30,41 @@ section.section {
     text-shadow: var(--shadow-black);
 }
 
+table{
+
+    padding: 5px;
+    text-align:center;
+    margin: 0 auto;
+    }
+    
+    caption{
+        color: black;
+        text-shadow: var(--shadow-white);
+    }
+    
+    th{
+        border: 2px solid black;
+      }
+    
+      tr {
+        border: 2px solid black;
+      }
+    
+    td {
+        border: 2px solid black;
+        color: var(--white);
+      }
+    button{
+        background-color: var(--primary-color);
+        color: var(--white);
+        border-radius: 15%;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        background-color: var(--secondary-color);
+        color: var(--white);
+    }
+ 

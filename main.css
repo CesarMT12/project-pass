@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #F57E0E;
+    --secondary-color: #333;
+    --link-color: #0000ff;
+    --white:#fff;
+    --special-font: 'Black Ops One';
+    --shadow-white: #fff 0 0 .5rem;
+    --shadow-black: #000 0 0 .5rem;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+}
+h2{
+    text-align: center;
+}
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+section.section {
+    flex-basis: 33%;
+}
+
+.title{
+    color: var(--white);
+    text-shadow: var(--shadow-black);
+}
+

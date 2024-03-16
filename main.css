@@ -1,0 +1,23 @@
+table{
+background-color: #ff8000;
+padding: 3px;
+}
+
+caption{
+    background-color: #ff8000;
+}
+
+th{
+    border: 5px solid black;
+  }
+
+  tr {
+    border: 5px solid black;
+  }
+
+td {
+    border: 3px solid black;
+  }
+
+  
+

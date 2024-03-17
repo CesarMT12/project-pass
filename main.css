@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #F57E0E;
+    --secondary-color: #333;
+    --link-color: #0000ff;
+    --white:#fff;
+    --special-font: 'Black Ops One';
+    --shadow-white: #fff 0 0 .5rem;
+    --shadow-black: #000 0 0 .5rem;
+}
+
+.bloque {
+    display: flex;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: var(--secondary-color);
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.imagen{
+    margin-left: 90px;
+}
+
+.inicio{
+    display:flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 850px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opciones{
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.Veterinaria{
+     list-style: none;
+     background-color: var(--primary-color);
+     font-size: 20px;
+     font-weight: bolder;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 550px;
+     color: var(--shadow-black);
+     text-shadow:var(--shadow-white);
+}
+
+.bloque2{
+    background-color: var(--primary-color);
+}
+
+.imagen2{
+    margin-left: 500px;
+}

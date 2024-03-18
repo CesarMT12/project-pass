@@ -18,37 +18,43 @@
 }
 
 .imagen{
-    margin-left: 90px;
+    margin-left: -1080px;
 }
 
 .inicio{
     display:flex;
     gap: 20px;
     list-style: none;
-    margin-left: 850px;
+    margin-left: 890px;
     font-family: 'Roboto', sans-serif;
 }
 
 .opciones{
     font-weight: bolder;
-    font-size: 13px;
-}
-
-.Veterinaria{
-     list-style: none;
-     background-color: var(--primary-color);
-     font-size: 20px;
-     font-weight: bolder;
-     font-family: 'Roboto', sans-serif;
-     margin-left: 550px;
-     color: var(--shadow-black);
-     text-shadow:var(--shadow-white);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bloque2{
     background-color: var(--primary-color);
 }
 
+.veterinaria{
+     list-style: none;
+     background-color: var(--primary-color);
+     font-size: 20px;
+     font-weight: bolder;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 480px;
+     color: var(--shadow-black);
+     text-shadow:var(--shadow-white);
+}
+
 .imagen2{
-    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
